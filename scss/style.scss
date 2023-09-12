@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+    .bag-container{
+        header{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1920px;
+            align-items: center;
+            gap: 130px;
+            background-color:#eff7f2;
+            .header-div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                .organik{
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: #274C5B;
+                        font-family: Roboto;
+                        font-size: 38px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    .list{
+                        width: 36.582px;
+                        height: 53.716px;
+                        flex-shrink: 0;
+                    }
+                }
+               
+                .a-teg{
+                  margin-right: 100px;
+                  margin-left: 150px;
+                  display: flex;  
+                  align-items: center;
+                  gap: 30px;
+                  a{
+                    color: #154257;
+                  }
+                }
+                button:hover{
+                    background-color: #5177c9;
+                }
+                button{
+                    display: flex;
+                    align-items: center;
+                    border-radius: 33px;
+                    border: 1px solid #E0E0E0;
+                    width: 159px;
+                    height: 66px;
+                    flex-shrink: 0;
+                }
+                .cart{
+                    
+                    color: #274C5B;
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+               
+            }
+           
+        }
+
+        .banan{
+           padding: 145px 285px;
+        }
+
+        .div-2{
+           
+            display: flex;
+            width: 1920px;
+            height: 1067px;
+            flex-shrink: 0;
+            background-color:#faf3f3 ;
+            h2{
+                margin-top: 30px;
+                width: 702px;
+                color: #274C5B;
+                font-family: Roboto;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+            }
+            .about{
+                margin-top: 0px;
+                width: 117.832px;
+                color: #7EB693;
+                font-family: Yellowtail;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+            }
+            p{
+                
+                margin-top: 40px;
+                width: 590px;
+                color: #525C60;
+                font-family: Open Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 165.4%; /* 29.772px */  
+            }
+            .we{
+               
+                margin-top: 120px;
+                margin-left: -50px;
+            }
+            .organic{
+                width: 664px;
+                margin-top: 40px;
+            }
+            .step:hover{
+                background-color: #5177c9;
+            }
+            .step{
+                color: #FFF;
+                font-size: 20px;
+                margin-top: 50px;
+                display: flex;
+                width: 220px;
+                padding: 28px 39px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px; 
+                border-radius: 16px;
+                background: #274C5B;
+              
+            }
+        }
+
+        .d-3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .div-3{
+                margin-top: 180px;
+                
+                background-color: #fafafc;
+                display: flex;
+                width: 1400.361px;
+                flex-direction: column;
+                align-items: center;
+                gap: 40px; 
+                .categ{
+                    margin-bottom: -70px;
+                }
+                h1{
+                    color: #274C5B;
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;  
+                }
+                .for-4{
+                    display: flex;
+                    width: 1400.361px;
+                    justify-content: center;
+                    
+                    gap: 20px;
+                    background: #F9F8F8;
+                    // gap: 20px;
+                    // grid-template-columns:4;
+                    // grid-template-rows:1 ;
+                    .d{
+                        display: flex;
+                        flex-direction: column;
+                        width: 335px;
+                        height: 483px;
+                        flex-shrink: 0; 
+                        border-radius: 20px;
+                        background: #F9F8F8;
+                        button:hover{
+                            background-color: #5177c9;
+                        }
+                        button{
+                            margin-left: 40px;
+                            color: #FFF;
+                            font-size: 20px;
+                            margin-top: 50px;
+                            display: flex;
+                            max-width:max-content ;
+                            border-radius: 10px;
+                            background: #274C5B;  
+                        }
+                        .flash{
+                            margin-top: -60px;
+                        }
+                        .vg{
+                            margin-top: 15px;
+                            
+                        }
+                        .almond{
+                            margin-left: 0px;
+                        }
+                        .st4{
+                            margin-top: -25px;
+                        }
+                        .img{
+                            background: #F9F8F8;
+                           
+                        }
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+}
